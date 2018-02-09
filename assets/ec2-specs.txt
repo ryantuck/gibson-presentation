@@ -1,0 +1,5 @@
+c4.8xlarge
+
+36 vCPU
+
+60 GB RAM
