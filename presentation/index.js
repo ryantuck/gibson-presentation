@@ -70,13 +70,13 @@ const images = {
 export default class Presentation extends React.Component {
   render() {
     return (
-      <Deck transition={["zoom"]} transitionDuration={500} theme={theme}>
-        <Slide transition={["zoom"]} bgColor="primary">
+      <Deck transition={["slide"]} transitionDuration={500} theme={theme}>
+        <Slide transition={["slide"]} bgColor="primary">
           <Heading textAlign="left" size={2} caps lineHeight={1} textColor="secondary">
             Chatbot-controlled Cloud Infrastructure Management in Python
           </Heading>
         </Slide>
-        <Slide transition={["zoom"]} bgColor="primary" textColor="tertiary">
+        <Slide transition={["slide"]} bgColor="primary" textColor="tertiary">
           <Table>
             <TableRow>
               <TableItem>
@@ -123,12 +123,12 @@ export default class Presentation extends React.Component {
           <Heading size={5} textAlign="left">&#x1F4C8; More vendors</Heading>
           <Heading size={5} textAlign="left">&#x1F4C8; More data</Heading>
         </Slide>
-        <Slide transition={["zoom"]} bgColor="tertiary">
+        <Slide transition={["none"]} bgColor="tertiary">
           <Heading size={1} fit caps lineHeight={1} textColor="primary">
             How do we analyze it all?
           </Heading>
         </Slide>
-        <Slide transition={["zoom"]} bgColor="primary">
+        <Slide transition={["slide"]} bgColor="primary">
             <List>
               <ListItem>Fancy BI Tools</ListItem>
               <ListItem>SQL</ListItem>
@@ -140,37 +140,37 @@ export default class Presentation extends React.Component {
 
             </List>
         </Slide>
-        <Slide transition={["zoom"]} bgColor="primary">
+        <Slide transition={["slide"]} bgColor="primary">
           <Image
             src={images.excel_logo}
           />
         </Slide>
-        <Slide transition={["zoom"]} bgColor="primary">
+        <Slide transition={["slide"]} bgColor="primary">
           <Image
             src={images.i_heart_spreadsheets}
           />
         </Slide>
-        <Slide transition={["zoom"]} bgColor="tertiary">
+        <Slide transition={["none"]} bgColor="tertiary">
           <Heading size={1} fit caps lineHeight={1} textColor="primary">
             The Problem
           </Heading>
         </Slide>
-        <Slide transition={["zoom"]} bgColor="primary">
+        <Slide transition={["slide"]} bgColor="primary">
           <Image
             src={images.excel_not_responding}
             width={600}
           />
         </Slide>
-        <Slide transition={["zoom"]} bgColor="primary">
+        <Slide transition={["slide"]} bgColor="primary">
           <Heading>&#x1F914;</Heading>
         </Slide>
         <Slide bgImage={images.supercomputer}></Slide>
-        <Slide transition={["zoom"]} bgColor="primary">
+        <Slide transition={["slide"]} bgColor="primary">
           <Image
             src={images.aws_cloud}
           />
         </Slide>
-        <Slide transition={["zoom"]} bgColor="primary" textAlign="left">
+        <Slide transition={["slide"]} bgColor="primary" textAlign="left">
           <Heading size={3} textAlign="left">EC2</Heading>
           <Table>
             <TableRow>
@@ -188,37 +188,37 @@ export default class Presentation extends React.Component {
             </TableRow>
           </Table>
         </Slide>
-        <Slide transition={["zoom"]} bgColor="primary">
+        <Slide transition={["slide"]} bgColor="primary">
           <Text>&#x1F389; Our biggest workbook runs! &#x1F389;</Text>
         </Slide>
         <Slide bgImage={images.people_connected}></Slide>
         <Slide transition={["none"]} bgImage={images.people_connected}>
           <Heading caps textColor="#f00" size={2}>Resource Contention</Heading>
         </Slide>
-        <Slide transition={["zoom"]} bgColor="tertiary">
+        <Slide transition={["none"]} bgColor="tertiary">
           <Heading size={1} caps lineHeight={1} textColor="primary">
             Idea
           </Heading>
         </Slide>
-        <Slide transition={["zoom"]} bgColor="primary">
+        <Slide transition={["slide"]} bgColor="primary">
           <Text>Give everyone a supercomputer</Text>
         </Slide>
-        <Slide transition={["zoom"]} bgColor="primary">
+        <Slide transition={["slide"]} bgColor="primary">
           <Text>&#x1F62C; $$$$$ &#x1F62C;</Text>
         </Slide>
-        <Slide transition={["zoom"]} bgColor="primary">
+        <Slide transition={["slide"]} bgColor="primary">
           <Text>Give everyone a supercomputer</Text>
           <Text>Use them only when needed</Text>
         </Slide>
-        <Slide transition={["zoom"]} bgColor="primary">
+        <Slide transition={["slide"]} bgColor="primary">
           <Text>&#x1F914; Where's the on/off switch? &#x1F914;</Text>
         </Slide>
-        <Slide transition={["zoom"]} bgColor="primary">
+        <Slide transition={["slide"]} bgColor="primary">
           <Text>Give everyone a supercomputer</Text>
           <Text>Use them only when needed</Text>
           <Text>Use a chatbot as an interface!</Text>
         </Slide>
-        <Slide transition={["zoom"]} bgColor="primary">
+        <Slide transition={["slide"]} bgColor="primary">
           <Image
             src="https://media.giphy.com/media/MF1kR4YmC2Z20/giphy.gif"
           />
@@ -237,7 +237,7 @@ export default class Presentation extends React.Component {
             </TableRow>
           </Table>
         </Slide>
-        <Slide transition={["zoom"]} bgColor="primary">
+        <Slide transition={["slide"]} bgColor="primary">
           <Image
             src={images.gibson_start}
           />
@@ -323,40 +323,40 @@ export default class Presentation extends React.Component {
             source={require("!raw-loader!../assets/apex-deploy.txt")}
           />
         </Slide>
-        <Slide transition={["zoom"]} bgColor="primary">
+        <Slide transition={["slide"]} bgColor="primary">
           <Image
             src={images.gibson_start}
           />
         </Slide>
-        <Slide transition={["zoom"]} bgColor="primary">
+        <Slide transition={["slide"]} bgColor="primary">
           <Image
             src={images.gibson_stop}
           />
         </Slide>
-        <Slide transition={["zoom"]} bgColor="primary">
+        <Slide transition={["slide"]} bgColor="primary">
           <Image
             src={images.gibson_status}
           />
         </Slide>
-        <Slide transition={["zoom"]} bgColor="primary">
+        <Slide transition={["slide"]} bgColor="primary">
           <Image
             src={images.gibson_pod_bay_doors}
           />
         </Slide>
-        <Slide transition={["zoom"]} bgColor="tertiary">
+        <Slide transition={["none"]} bgColor="tertiary">
           <Heading size={1} caps lineHeight={1} textColor="primary">
             Cool ...
           </Heading>
         </Slide>
-        <Slide transition={["zoom"]} bgColor="primary">
+        <Slide transition={["slide"]} bgColor="primary">
           <Image
             src={images.facepalm}
           />
         </Slide>
-        <Slide transition={["zoom"]} bgColor="primary">
+        <Slide transition={["slide"]} bgColor="primary">
           <Text>&#x1F644; Let's do it for them &#x1F644;</Text>
         </Slide>
-        <Slide transition={["zoom"]} bgColor="primary">
+        <Slide transition={["slide"]} bgColor="primary">
           <Heading size={5}>Autokiller goal</Heading>
           <Text>Stop instances if network activity and CPU utilization have been low for the past hour.</Text>
         </Slide>
@@ -391,12 +391,12 @@ export default class Presentation extends React.Component {
         <Slide bgColor="primary">
           <Text>We're continuing to help our analysts level up their technical skills, and building simple tools to help them leverage automation. &#x1F60E;</Text>
         </Slide>
-        <Slide transition={["zoom"]} bgColor="tertiary">
+        <Slide transition={["none"]} bgColor="tertiary">
           <Heading size={1} caps lineHeight={1} textColor="primary">
             But wait! you don't need all of this!
           </Heading>
         </Slide>
-        <Slide transition={["zoom"]} bgImage={images.roasted}>
+        <Slide transition={["none"]} bgImage={images.roasted}>
           <Image
             src={images.appstream}
           />
