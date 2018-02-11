@@ -1,8 +1,5 @@
 def get_cpu_utilization(instance_id):
-    """
-    Retrieves CPU Utilization for the past hour at 5-minute intervals
-    for a given user's instance.
-    """
+
     now = datetime.datetime.utcnow()
 
     cloudwatch = boto3.resource('cloudwatch')
@@ -19,5 +16,4 @@ def get_cpu_utilization(instance_id):
     )
 
     # return chronological results
-    ordered_data = sorted(response['Datapoints'], key=lambda x: x['Timestamp'])
-    return ordered_data
+    return sorted(response['Datapoints'], key=lambda x: x['Timestamp'])

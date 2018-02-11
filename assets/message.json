@@ -1,0 +1,18 @@
+"item": {
+    "message": {
+        "date": "2018-02-09T02:29:07.794958+00:00",
+        "from": {
+            "id": 1754909,
+            "links": {
+                "self": "https://api.hipchat.com/v2/user/1754909"
+            },
+            "mention_name": "databae",
+            "name": "Ryan Tuck",
+            "version": "AN0FIZN7"
+        },
+        "id": "08f55ec4-2ddc-4389-9ded-7f55c7f77ebe",
+        "mentions": [],
+        "message": "/gibson start ryan-tuck",
+        "type": "message"
+    }
+}

@@ -1,0 +1,5 @@
+$ apex deploy gibson-bot
+   • config unchanged       function=gibson-bot
+   • updating function      function=gibson-bot
+   • updated alias current  function=gibson-bot version=32
+   • function updated       function=gibson-bot name=analyst-infra-gibson-bot

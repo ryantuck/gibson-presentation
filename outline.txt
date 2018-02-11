@@ -1,0 +1,50 @@
+me
+warby
+lots of departments
+lots of data
+how do we deal with it?
+lots of tools * BQ
+excel!
+spreadsheets are really handy
+but there's a problem
+excel crashing
+how do we fix that?
+use better tools for the job - SQL etc plus training
+but we can't change everything overnight
+so let's throw compute at it
+we don't have a supercomputer but we do have the cloud
+to AWS
+we spun up a big ol machine and finance could run big workbooks!
+but then a bunch of other people got logins
+and we ended up with a mainframe
+so we could either crank up the existing machine again, or
+new idea, inspired by autoscaling / serverless stuff
+let's give everyone a supercomputer
+but what about $$$
+they'll be off most of the time
+where's the on button? don't want people monkeying around in AWS.
+chatbot!
+provision with boto3, ec2, ELB, route53
+hook up AD with ansible (gross)
+gibson bot - use lambda with api gateway
+apex deploy
+gibson start
+gibson stop
+gibson status
+POST body
+handling in python
+boto3 stuff
+handling edge cases
+gibson open the pod bay doors :)
+but people were forgetting to shut them off!
+let's get heuristics for when a machine is idle and kill it
+this turns out to be a combination of network activity and CPU
+manage instance code
+gibson room stats
+still training, assisting with automation where we can.
+but don't do this because appstream 2.0 exists and we're looking into switching to that!
+btw spectacle is really cool.
+
+
+
+

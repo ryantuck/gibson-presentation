@@ -1,13 +1,13 @@
-def manage_instance(user, state, instance_id, **kwargs):
+def manage_instance(user, state, instance_id):
     """
-    Stops instance if its CPU graph indicates it's not being used.
+    Stops instance if its CPU / Network graphs indicate
+    it's not being used.
     """
 
     if state == 'stopped':
         print('{0: <20} | instance already stopped'.format(user))
-        return None
 
-    if should_stop(instance_id):
+    elif should_stop(instance_id):
         print('{0: <20} | stopping instance'.format(user))
         stop(instance_id)
 
